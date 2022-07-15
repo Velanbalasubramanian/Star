@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>FORM</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm-5">
+            <div class="mt-5">
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=sparkout&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+        </div>
+</div>
+            <div class="col-sm-7">
+                <div class="mt-5">
+                <!-- FORM -->
+                <div class ="card">
+                <div class="card-header">Contact page 
+                <div class = "card-body">
+
+                 <form action ="" method="post">
+ <div class="form-group">      
+<label for="name">Full Name<span class="text-danger">*</span></label>
+<input type ="text" class="form-control" id="name" name="name" placeholder="Enter your full name"/>
+</div>
+
+
+<div class="form-group  "> 
+    <label for="Gender">Gender</label>
+            <input type = "radio" name = "gender" class = "form-check-input ml-2" value = "male" id = "gender_male"/>
+            <label for="gender_male">male</label>
+            <input type = "radio" name = "gender" class = "form-check-input" value = "male" id = "gender_female"/>
+            <label for="gender_female">female</label>
+            <input type = "radio" name = "gender" class = "form-check-input" value = "male" id = "gender_others"/>
+            <label for="gender_others">others</label>
+</div>     
+<div class="form-group"> 
+<label for="Phone">Phone number</label>
+<input type ="number" class="form-control" id="Phone" name="Phone " placeholder="+911234567895" /> 
+</div>   
+<div class="form-group"> 
+<label for="Email">Email</label>
+<input type ="email" class="form-control" id="email" name="email " placeholder="abc@gmail.com" aria-describedby="emailHelp" /> 
+<small id="emailHelp">We'll never share your email with anyone else.</small>
+</div>   
+<div class = "form-group">
+    <label for = "source">Came from</label>
+    <select name="source" id="source" class="form-control">
+        <option value="">--Select Source--</option>
+        <option value="GOOGLE">GOOGLE</option>
+        <option value="FACEBOOK">FACEBOOK</option>
+        <option value="YOUTUBE">YOUTUBE</option>
+    </select>
+</div>
+<div class="form-group "> 
+   <button type="submit" class="btn btn-primary ">Submit</button>
+   
+    </div>   
+</form> 
+</div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+</div>
+    
+</body>
+
+</html>
+
+
+
+
+
+
